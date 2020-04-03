@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0,.9); 
+    background-position: bottom;
+    background-size: cover;
+    
+     
+    
+}
+
+form{
+    display: flex; 
+    flex-direction: column; 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(76, 225, 252);
+    height: 250px;
+    width:300px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    
+    height: 20px;
+    width: 200px;
+    background-color: rgb(250, 248, 248);
+    border: none;
+    border-radius: 3px;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+     
+    color: rgb(7, 125, 129);
+
+    margin-top: 10px;
+}
+
+button{
+    margin-left: 70px;
+
+    display: inline-block;
+    height:30px;
+    width: 60px;
+    margin-top: 5px;   
+    background-color:rgb(77, 177, 248);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    transition: all .3s;
+    color:rgba(241,220,207);
+    
+    
+    
+}
+
+button:hover{
+    transform: translateY(-3px);
+}
+
+.box h1{
+    
+    color:rgb(228, 0, 105);
+}
